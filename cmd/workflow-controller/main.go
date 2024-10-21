@@ -78,7 +78,7 @@ func NewRootCommand() *cobra.Command {
 			stats.RegisterStackDumper()
 			stats.StartStatsTicker(5 * time.Minute)
 			pprofutil.Init()
-
+			// Test
 			config, err := clientConfig.ClientConfig()
 			if err != nil {
 				return err
