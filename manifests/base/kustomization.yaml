@@ -7,4 +7,4 @@ resources:
 - argo-server
 images:
 - name: wesmsl/argocli
-  newTag: v1:v1.0.0
+  newTag: v1
