@@ -8,3 +8,5 @@ resources:
 images:
 - name: wesmsl/argocli
   newTag: v1
+- name: wesmsl/argoexec
+  newTag: v1
